@@ -11,4 +11,5 @@ In the Work section, clicking on the images will direct you to the corrosponding
 [This site has been published](https://deannem1.github.io/BioPage/)
 
 
-*This site was started during a bootcamp class
+*This site was started during a bootcamp class some of the code contained in the reset.css was obtained in that class
+
