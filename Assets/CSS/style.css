@@ -143,7 +143,7 @@ aside {
 
 .card {
   flex: 100%;
-  background-color: #c58e6f;
+  background-color: #f0d4c3;
   border: solid 3px;
   border-color: #c58e6f;
   color:#5b4235;
@@ -167,7 +167,7 @@ aside {
 
 .column {
   flex: 48%;
-  background-color: #c58e6f;
+  background-color: #f0d4c3;
   border: solid 3px;
   border-color: #c58e6f;
   color: #5b4235;
@@ -179,7 +179,9 @@ aside {
 
 .column img {
     width: 100%;
-    height: auto;  
+    margin: auto;
+    height: auto; 
+    object-fit: cover; 
     display: block;
     max-height: 100%;
     opacity: 0.7;
