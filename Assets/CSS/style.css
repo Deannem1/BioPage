@@ -1,5 +1,5 @@
 body {
-  background-color: #fffbf3;
+  background-color: #fffff1;
   
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -66,7 +66,7 @@ header {
 
 .banner-text {
     color: #31343d;
-    background-color: #e2bc95;
+    background-color: #f6bbaa;
     margin: 60px 30px 15px 0;
     padding: 4px;
     display: inline-block;
@@ -75,7 +75,7 @@ header {
 }
 
 h1 {
-    color: #5b4235;
+    color: #f6bbaa;
     padding-left: 60px;
     text-align: right;
     justify-content: center;
@@ -129,6 +129,7 @@ aside {
 
     width: 20%;
     height: 20%;
+    filter: sepia(80%);
 }
 
 .container {
@@ -161,10 +162,12 @@ aside {
     display: block;
     max-height: 100%;
     opacity: 0.7;
+    filter: sepia(80%)
 }
 
 .card img:hover {
     opacity: 1;
+
 }
 
 .column {
@@ -187,6 +190,7 @@ aside {
     display: block;
     max-height: 100%;
     opacity: 0.7;
+    filter: sepia(80%);
 }
 
 .column img:hover {
@@ -201,7 +205,7 @@ div  {
     margin: 5px;
     padding: 10px;
     position: absolute;
-    left: 0;
+    left: 0px;
     bottom: 10px;  
 }
 
@@ -256,8 +260,8 @@ footer {
 }
 
 .nav-bottom a:hover {
-    color: #c58e6f;
-    background-color: #5b4235;
+    color: #fffff1;
+    background-color: #f6bbaa;
 }
 
 /* as the screen is reduced in size smaller than 980px, the elements will adjust to display in columns rather than rows, 
