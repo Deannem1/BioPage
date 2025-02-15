@@ -3,6 +3,29 @@ body {
   
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.banner {
+    height: 200px;
+   background-color: #cbb9a3;
+    background-image: url("../Images/Protea.jpg") ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    text-align: right;
+    border: solid 3px;
+    border-color:#5b4235;
+}
+
+.banner-text {
+    color: #5b4235;
+    background-color: #f4cec3;
+    margin: 60px 30px 15px 0;
+    padding: 4px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 65px;
+}
 
 header {
     display: flex;
@@ -12,13 +35,15 @@ header {
     padding: 20px 20px 20px 20px;
     background-color:#e1ccb6;
     font-size: 30px;  
+    border: solid 3px;
+    border-color:#5b4235;
 }
 
 .header-text {
-    color: #ebdab0;
+    color: #fffff1;
     background-color: #5b4235;
     margin: 5px 0 5px 0;
-    padding: 4px 10px 4px 40px;
+    padding: 4px 20px 4px 20px;
     display: inline-block;
     font-size: 35px;
 }
@@ -50,29 +75,7 @@ header {
 }
 
 /* image placed into the background in this banner */
-.banner {
-    height: 150px;
-   background-color: #cbb9a3;
-    background-image: url("../Images/Protea.jpg") ;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    align-items:flex-end;
-    text-align: right;
-    border: solid 3px;
-    border-color:#5b4235;
-}
 
-.banner-text {
-    color: #31343d;
-    background-color: #f6bbaa;
-    margin: 60px 30px 15px 0;
-    padding: 4px;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 25px;
-}
 
 h1 {
     color: #f6bbaa;
@@ -127,9 +130,9 @@ aside {
 
 .image1 {
 
-    width: 20%;
-    height: 20%;
-    filter: sepia(80%);
+    width: 60%;
+    height: 60%;
+    filter: sepia(60%);
 }
 
 .container {
@@ -162,11 +165,12 @@ aside {
     display: block;
     max-height: 100%;
     opacity: 0.7;
-    filter: sepia(80%)
+    filter: sepia(60%)
 }
 
 .card img:hover {
     opacity: 1;
+    filter: sepia(0%);
 
 }
 
@@ -195,6 +199,7 @@ aside {
 
 .column img:hover {
     opacity: 1;
+    filter: sepia(0%);
 }
 
 /* this div is used as a text box within the image links and are positiond absolute to the cards that they are in */
@@ -279,8 +284,8 @@ some phots will enlarge as others will shrink. This will give it a cleaner view 
         flex-direction: column;
     }
     .image1 {
-        width: 40%;
-        height: 40%;
+        width: 60%;
+        height: 60%;
         align-self: center;
     }
     aside {
