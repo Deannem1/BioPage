@@ -1,12 +1,12 @@
 body {
-  background-color: #fffff1;
+  background-color: #f2ede7;
   
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .banner {
     height: 200px;
    background-color: #cbb9a3;
-    background-image: url("../Images/Protea.jpg") ;
+    background-image: url("../Images/pinkgrass.jpg") ;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -132,7 +132,8 @@ aside {
 
     width: 60%;
     height: 60%;
-    filter: sepia(60%);
+    border: solid #c58e6f 4px;
+    
 }
 
 .container {
@@ -165,12 +166,12 @@ aside {
     display: block;
     max-height: 100%;
     opacity: 0.7;
-    filter: sepia(60%)
+    filter: sepia(0%)
 }
 
 .card img:hover {
     opacity: 1;
-    filter: sepia(0%);
+    filter: sepia(60%);
 
 }
 
@@ -194,19 +195,19 @@ aside {
     display: block;
     max-height: 100%;
     opacity: 0.7;
-    filter: sepia(80%);
+    filter: sepia(0%);
 }
 
 .column img:hover {
     opacity: 1;
-    filter: sepia(0%);
+    filter: sepia(60%);
 }
 
 /* this div is used as a text box within the image links and are positiond absolute to the cards that they are in */
 div  {
     display: inline-block;
     text-align:left;
-    background-color: #cbb9a3;
+    background-color: #deceb9;
     margin: 5px;
     padding: 10px;
     position: absolute;
