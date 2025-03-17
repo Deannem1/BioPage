@@ -307,6 +307,9 @@ some phots will enlarge as others will shrink. This will give it a cleaner view 
     .nav-list {
         padding: 5px;
     }
+    h1{
+        font-size: 25px;
+    }
     .image1 {
         width: 60%;
         height: 60%;
