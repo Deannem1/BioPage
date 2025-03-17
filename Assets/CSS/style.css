@@ -77,10 +77,13 @@ header {
     font-weight: bolder;
 }
 
-/* image placed into the background in this banner */
+h1{
+    text-transform: lowercase;
+    color: #c58e6f;
+}
 
 
-h1 {
+h2 {
     color: #f6bbaa;
     padding-left: 60px;
     text-align: right;
@@ -100,7 +103,7 @@ main{
 
 aside {
     display: flex;
-    flex: 20%;
+    flex: 10%;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -124,8 +127,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     flex: 85%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #5b4235;
     padding: 10px 10px 10px 10px;
     margin: 10px;
@@ -133,8 +135,8 @@ aside {
 
 .image1 {
 
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    height: 40%;
     border: solid #c58e6f 4px;
     
 }
@@ -278,7 +280,7 @@ some phots will enlarge as others will shrink. This will give it a cleaner view 
 @media screen and (max-width: 980px){
     header { 
         flex-direction: column;
-        height: 150px;
+        height: 100px;
         padding: 0 20px 20px 20px;
     }
     .header-text {
