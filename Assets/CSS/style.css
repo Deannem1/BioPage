@@ -31,7 +31,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    height: 75px;
+    height: 100px;
     justify-content: space-between;
     padding: 20px 20px 20px 20px;
     background-color:#efe5e3;
@@ -80,6 +80,12 @@ header {
 h1{
     text-transform: lowercase;
     color: #c58e6f;
+    padding-left: 60px;
+    text-align: left;
+    justify-content: center;
+    font-size: 150%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 
 
@@ -280,7 +286,7 @@ some phots will enlarge as others will shrink. This will give it a cleaner view 
 @media screen and (max-width: 980px){
     header { 
         flex-direction: column;
-        height: 100px;
+        height: 150px;
         padding: 0 20px 20px 20px;
     }
     .header-text {
@@ -304,12 +310,15 @@ some phots will enlarge as others will shrink. This will give it a cleaner view 
 }
 
 @media screen and (max-width: 768px){
+    header { 
+        flex-direction: column;
+        height: 200px;
+        padding: 0 20px 20px 20px;
+    }
     .nav-list {
         padding: 5px;
     }
-    h1{
-        font-size: 25px;
-    }
+   
     .image1 {
         width: 60%;
         height: 60%;
